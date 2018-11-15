@@ -101,15 +101,10 @@ fieldset {
     border-bottom-right-radius: 100%;
 }
 
-.icon-style {
+.img-responsive{
 	float: right;
     margin-top: -78px;
     font-size: 50px;
-}
-
-.pattern-bg {
-	background: url(../images/bg/pattern-bg.png);
-	background-repeat: repeat;
 }
 
 .grabbing {
