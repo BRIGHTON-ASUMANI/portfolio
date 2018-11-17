@@ -603,14 +603,7 @@ p.myp-font {
 h4{
     color:#fff;
 }
-svg {
-    display: block;
-    font: 10.5em 'Roboto';
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-}
+
 
 .web-coder-skull {
     fill: none;
