@@ -1503,6 +1503,56 @@ border-color: blue;
         animation: fade 10s infinite 1400ms;
     }
 
+    .letter:nth-child(8) {
+        -webkit-animation: fade 10s infinite 1400ms;
+        animation: fade 10s infinite 1400ms;
+    }
+
+    .letter:nth-child(9) {
+        -webkit-animation: fade 10s infinite 1400ms;
+        animation: fade 10s infinite 1400ms;
+    }
+
+    .letter:nth-child(10) {
+        -webkit-animation: fade 10s infinite 1400ms;
+        animation: fade 10s infinite 1400ms;
+    }
+
+    .letter:nth-child(11) {
+        -webkit-animation: fade 10s infinite 1400ms;
+        animation: fade 10s infinite 1400ms;
+    }
+
+    .letter:nth-child(12) {
+        -webkit-animation: fade 10s infinite 1400ms;
+        animation: fade 10s infinite 1400ms;
+    }
+
+    .letter:nth-child(13) {
+        -webkit-animation: fade 10s infinite 1400ms;
+        animation: fade 10s infinite 1400ms;
+    }
+
+    .letter:nth-child(14) {
+        -webkit-animation: fade 10s infinite 1400ms;
+        animation: fade 10s infinite 1400ms;
+    }
+
+    .letter:nth-child(15) {
+        -webkit-animation: fade 10s infinite 1400ms;
+        animation: fade 10s infinite 1400ms;
+    }
+
+    .letter:nth-child(16) {
+        -webkit-animation: fade 10s infinite 1400ms;
+        animation: fade 10s infinite 1400ms;
+    }
+
+    .letter:nth-child(17) {
+        -webkit-animation: fade 10s infinite 1400ms;
+        animation: fade 10s infinite 1400ms;
+    }
+
     @-webkit-keyframes fade {
         50% {
             opacity: 0.02;
