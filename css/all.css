@@ -177,14 +177,8 @@ hr.my-border {
     object-fit: cover;
 }
 
-.mybg-events {
-    background: url('https://images.pexels.com/photos/167491/pexels-photo-167491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center center fixed;
-    background-size: cover;
-}
 
-.h-262 {
-    height: 262px !important;
-}
+
 
 h3.title-heading.text-center {
     color: #fff;
@@ -248,7 +242,7 @@ section#group {
 
 .card:hover {
     color: #222 !important;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 2px #FF7F50;
 }
 
 .card-block {
