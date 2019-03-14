@@ -11,6 +11,7 @@
 
     <title>Brighton Asumani</title>
 
+    <link rel="stylesheet" type="text/css" href="css/about.css">
     <link rel="stylesheet" type="text/css" href="css/plugin.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <!-- Main CSS Stylesheet -->
@@ -22,12 +23,9 @@
     <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-
-
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  
-   
-     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
    
 
@@ -36,254 +34,75 @@
   <body>
 
 
-
     <div id='cssmenu'>
     <ul>
        <li class='active nav'><a href='#'>Home</a></li>
-      <li><a href='#aboutme'>About Me</a></li>
+      <li ><a href='#aboutme'>About Me</a></li>
       <li><a href='#projects'>Projects</a></li>
       <li><a href='#skills'>Skills</a></li>
       <li><a href='#contact'>Contact</a></li>
     </ul>
     </div>
-
-
-
-
-        <header class="masthead text-white ">
-            <div class="overlay"></div>
-            <div class="container slider-top-text">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h3 class="my-heading"><span class="letter">B</span><span class="letter">R</span><span class="letter">I</span><span class="letter">G</span><span class="letter">H</span><span class="letter">T</span><span class="letter">O</span><span class="letter">N</span>
-<span class="letter">A</span><span class="letter">S</span><span class="letter">U</span><span class="letter">M</span><span class="letter">A</span><span class="letter">N</span><span class="letter">I</span><span class="bg-main"></span></h3>
-                    </div>
-
-                </div>
-
-        </header>
     
-<h1 class="breadcrumb">ABOUT ME</h1>
 
-        <section class="testimonials" id="gobottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-3 wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="big-img">
-                            <img src="images/b.jpg" class="img-fluid img-circle img-thumbnail">
+    <section class="testimonials" id="gobottom">
+    <div class="container">
+        <div class="span3 well">
+            <center>
+            <a href="#aboutModal" data-toggle="modal" data-target="#myModal"><img src="images/b.jpeg" name="aboutme" width="140" height="140" class="img-circle"></a>
+            <h3>Brighton Asumani</h3>
+            <em>click my face for more</em>
+            </center>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="background-color: black;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                        <h4 class="modal-title" id="myModalLabel">About me</h4>
                         </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="inner-section wow fadeInUp">
+                    <div class="modal-body">
+                        <center>
+                        <img src="images/b.jpeg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                        <h3 class="media-heading">Brighton Asumani</h3>
+                        
+                        <span data-toggle="collapse" data-target="#demo"><strong>Skills: </strong></span>
+                     
+                            <span class="label label-warning">Python/Flask/Django</span>
+                            <span class="label label-warning">JavaScript/Angular</span>
+                            <span class="label label-warning">Pivotal Tracker</span>
+                            <span class="label label-info">Git and version control</span>
+                            <span class="label label-info">HTML/CSS/Bootstrap</span>
+                            <span class="label label-success"> MySQL/PostgreSQL</span>
+                        </center>
+                        <hr>
+                        <center>
+                        <p class="text-left"><strong>About Me: </strong><br>
                             <p>
-                            <span class="letter">Brighton</span>
-                            <span class="letter"> is a full stack developer</span>
-                            <span class="letter"> with a strong foundation in python</span>
-                            <span class="letter"> and Javascript.</span>
-                            <span class="letter">I have worked with different frameworks</span>
-                            <span class="letter"> like django and flask</span>
-                            <span class="letter"> for both backend and frontend.</span></p>
+                                    My name is Brighton Asumani. I am an aspiring world class developer. My main goal in life is to make the world a better place using the technology skills that i learn everyday.
+                                    I am currently a full stack web developer
+                                    with a strong foundation in python where i have interacted with two frameworks django and flask. Javascript is always part of my life. And i enjoy coding</p>
+                        <br>
+                        </center>
+                    </div>
 
-                            <div class="linear-grid">
-
-                            </div>
-                        </div>
+                    
+                    <div class="modal-footer">
+                        <center>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">X</button>
+                        </center>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
 
-<!-- Skills -->
-
-<h1 class="breadcrumb">SKILLS</h1>
-        <section class="testimonials text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                            <div class="card">
-                                <img class="card-img-top" src="images/python.jpeg">
-                                <div class="card-block">
-            
-                                    <h4 class="card-title text-center">PYTHON</h4>
-            
-                        
-                                </div>
-                                
-                            </div>
-                        </div>
+    </section>
 
 
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/fla.jpg">
-                                    <div class="card-block">
-                
-                                        <h4 class="card-title text-center">Flask</h4>
-                
-                            
-                                    </div>
-                                    
-                                </div>
-                            </div>
-
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/dj.png">
-                                    <div class="card-block">
-                
-                                        <h4 class="card-title text-center">Django</h4>
-                
-                            
-                                    </div>
-                                    
-                                </div>
-                        </div>
-                
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/js.jpeg" >
-                                    <div class="card-block">
-                
-                                        <h4 class="card-title text-center">JavaScript</h4>
-                
-                            
-                                    </div>
-                                    
-                                </div>
-                        </div>
-
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/ang.png" >
-                                    <div class="card-block">
-                
-                                        <h4 class="card-title text-center">Angular JS</h4>
-                
-                            
-                                    </div>
-                                    
-                                </div>
-                        </div>
-
-
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/post.png"  >
-                                    <div class="card-block">
-                
-                                        <h4 class="card-title text-center">PostrgeSQL</h4>
-                
-                            
-                                    </div>
-                                    
-                                </div>
-                        </div>
-
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/boot.png"  >
-                                    <div class="card-block">
-                
-                                        <h4 class="card-title text-center">Bootstrap</h4>
-                
-                            
-                                    </div>
-                                    
-                                </div>
-                        </div>
-
-
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/html.jpeg"  >
-                                    <div class="card-block">
-                
-                                        <h4 class="card-title text-center">HTML5</h4>
-                
-                            
-                                    </div>
-                                    
-                                </div>
-                        </div>
-
-
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/git.png">
-                                    <div class="card-block">
-                
-                                        <h4 class="card-title text-center">Git and version control</h4>
-                
-                            
-                                    </div>
-                                    
-                                </div>
-                        </div>
-
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/pt.png">
-                                    <div class="card-block">
-                
-                                        <h4 class="card-title text-center">Pivotal Tracker</h4>
-                
-                            
-                                    </div>
-                                    
-                                </div>
-                        </div>
-
-
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/css.jpg">
-                                    <div class="card-block">
-                
-                                        <h4 class="card-title text-center">CSS3</h4>
-                
-                            
-                                    </div>
-                                    
-                                </div>
-                        </div>
-
-                        
-             
-                    </div>
-                </div>
-            </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h1 class="breadcrumb">PROJECTS</h1>
 <section class="testimonials text-center">
+        <h1 class="ttx">PROJECTS</h1>
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
@@ -295,7 +114,7 @@
 
                         <div class="card-text text-center">
                           <div class="social-icons">
-                              <a class="button button-style" href="https://gb-awwwards.herokuapp.com">view</a>
+                              <a class="button button-style" href="https://gb-awwwards.herokuapp.com" target="_blank">view</a>
                           </div>
                         </div>
                     </div>
@@ -314,7 +133,7 @@
 
                         <div class="card-text text-center">
                           <div class="social-icons">
-                              <a class="button button-style" href="https://github.com/BRIGHTON-ASUMANI/passlocker">view</a>
+                              <a class="button button-style" href="https://github.com/BRIGHTON-ASUMANI/passlocker" target="_blank">view</a>
                           </div>
                         </div>
                     </div>
@@ -333,12 +152,12 @@
 
                         <div class="card-text text-center">
                           <div class="social-icons">
-                              <a class="button button-style" href="https://one-dakika-pitch.herokuapp.com">view</a>
+                              <a class="button button-style" href="https://one-dakika-pitch.herokuapp.com" target="_blank">view</a>
                           </div>
                         </div>
                     </div>
                     <div class="card-footer text-center">
-                        <small>This is an application that lets the user create a pitch using the required time(one minute). After one minute the user is logged out. It contain categories like technology. religion etc</small>
+                        <small>This is an application that lets the user create a pitch using the required time(one minute). After one minute the user is logged out.</small>
 
                     </div>
                 </div>
@@ -352,7 +171,7 @@
 
                         <div class="card-text text-center">
                             <div class="social-icons">
-                                <a class="button button-style" href="https://gbinstagram.herokuapp.com">view</a>
+                                <a class="button button-style" href="https://gbinstagram.herokuapp.com" target="_blank">view</a>
                             </div>
                         </div>
                     </div>
@@ -362,12 +181,34 @@
                     </div>
                 </div>
             </div>
+
+
+        </div>
+        <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/politico.png">
+                            <div class="card-block">
+        
+                                <h4 class="card-title text-center">POLITICO</h4>
+        
+                                <div class="card-text text-center">
+                                    <div class="social-icons">
+                                        <a class="button button-style" href="https://github.com/BRIGHTON-ASUMANI/politico2.git" target="_blank">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center">
+                                <small>An rest API application that a user can CRUD parties and offices </small>
+        
+                            </div>
+                        </div>
+                    </div>
         </div>
     </div>
 </section>
 
 
-<h1 class="breadcrumb">CONTACT</h1>
     <!-- Footer Start -->
     <footer class="footer-section">
 
@@ -389,10 +230,12 @@
     <!-- Back to Top Start -->
     <a href="#" class="scroll-to-top"><i class="fa fa-long-arrow-up"></i></a>
     <!-- Back to Top End -->
-
+    <script type="text/javascript" src="js/about.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/plugin.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>

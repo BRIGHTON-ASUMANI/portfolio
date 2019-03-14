@@ -1,46 +1,4 @@
-header.masthead {
-    position: relative;
-    height: 100vh;
-    background-color: #343a40;
-    background: url(../images/p.gif) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-}
-header.masthead .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
 
-@media (min-width:768px) {
-    header.masthead {
-        padding-top: 12rem;
-        padding-bottom: 12rem;
-    }
-    header.masthead h3 {
-        font-size: 14rem;
-    }
-}
-
-.testimonials{
-    padding-top:5rem;
-    padding-bottom:5rem;
-
-}
-
-.myform-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
 
 button.btn.btn-light {
     position: absolute;
@@ -238,7 +196,10 @@ section#group {
     padding: 0;
     border: none !important;
     border-radius: .28571429rem;
+
+
 }
+
 
 .card:hover {
     color: #222 !important;
@@ -265,6 +226,7 @@ section#group {
     font-size: 1.28571429em;
     font-weight: 700;
     line-height: 1.2857em;
+    color: #FF6347;
 }
 
 .card-text {
@@ -280,51 +242,21 @@ section#group {
     left: 0;
     max-width: 100%;
     padding: .75em 1em;
-    color: rgba(0, 0, 0, .4);
+    color: black;
     border-top: 1px solid rgba(0, 0, 0, .05) !important;
-    background: #fff;
+    background: #FF6347;
 }
 
 .card-inverse .btn {
     border: 1px solid rgba(0, 0, 0, .05);
 }
 
-.mybg-music {
-    background: url('https://images.pexels.com/photos/1267317/pexels-photo-1267317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center center fixed;
-    background-size: cover;
-}
 
-section#marketplace {
-    background: #f7f7f7;
-    height: 100%;
-    width: 100%;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-section#marketplace .card {
-    font-size: 1em;
-    overflow: hidden;
-    padding: 0;
-    border: none;
-    border-radius: .28571429rem;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-}
-
-section#artist {
-    background: #fff;
-    height: 100%;
-    width: 100%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
 
 a.link-color {
-    color: #008ba3;
+    color: #FF6347;
     font-weight: bold;
 }
-
-
 
 
 .floating-arrow {
@@ -389,8 +321,4 @@ li.list-inline-item a {
     .btn-register {
          width:100%;
     }
-}
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-h4{
-    color:#fff;
 }

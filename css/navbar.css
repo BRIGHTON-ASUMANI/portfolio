@@ -115,7 +115,7 @@
 
 #cssmenu > ul > li:hover > a::before,
 #cssmenu > ul > li > a:hover::before {
-  background:#86c232;;
+  background:#FF6347;
 }
 #cssmenu.small-screen {
   width: 100%;
@@ -183,4 +183,6 @@
 }
 #cssmenu.small-screen #menu-button.menu-opened:before {
   background: #1f2604;
+
 }
+
