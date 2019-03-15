@@ -44,6 +44,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Noto Sans CJK KR Black', sans-serif;
+	font-weight: bold;
 }
 h1{
 	color: #FF6347;
@@ -61,7 +62,8 @@ p {
 	font-size:18px;
 	color:  #FF6347;
     margin:2px;
-    font-family: 'Noto Sans CJK KR Black';
+    font-family: 'Noto Sans CJK KR Black', sans-serif;
+	font-weight: bold;
 }
 
 b {
