@@ -46,6 +46,7 @@ h6 {
 	font-family: 'Noto Sans CJK KR Black', sans-serif;
 	font-weight: bold;
 }
+
 h1{
 	color: #FF6347;
 }
@@ -544,3 +545,114 @@ margin-top: 20px;
 		background-color: #ffffff;
 }
 
+
+.color-2 {
+	color: #d60bfb;
+}
+
+.color-3 {
+	color: #d8be10;
+}
+
+.color-4 {
+	color: #0fd28a;
+}
+
+.color-5 {
+	color: #f97400;
+}
+
+.color-6 {
+	color: #08a6f3;
+}
+
+
+
+/* Background Color */
+
+.bg-color-1 {
+	background-color: #f306a0;
+}
+
+.bg-color-2 {
+	background-color: #d60bfb;
+}
+
+.bg-color-3 {
+	background-color: #d8be10;
+}
+
+.bg-color-4 {
+	background-color: #0fd28a;
+}
+
+.bg-color-5 {
+	background-color: #f97400;
+}
+
+.bg-color-6 {
+	background-color: #08a6f3;
+}
+
+.breadcrumb  {
+  padding:30px;
+
+}
+.breadcrumb h4 {
+  color: black;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:20px;
+}
+
+h4 {
+ color: black;
+ text-transform:uppercase;
+ text-align:center;
+
+}
+
+div{
+border: 2px;
+border-color: blue;
+}
+
+
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
