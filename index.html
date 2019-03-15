@@ -5,7 +5,9 @@
 
     <!-- Meta Tag -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
@@ -19,6 +21,8 @@
     <link rel="stylesheet" type="text/css" href="css/all.css">
     
     <!-- Google Web Fonts  -->
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
     <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -26,7 +30,7 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+    
    
 
  </head>
@@ -39,15 +43,15 @@
        <li class='active nav'><a href='#'>Home</a></li>
       <li ><a href='#aboutme'>About Me</a></li>
       <li><a href='#projects'>Projects</a></li>
-      <li><a href='#skills'>Skills</a></li>
-      <li><a href='#contact'>Contact</a></li>
+      <!-- <li><a href='#skills'>Skills</a></li>
+      <li><a href='#contact'>Contact</a></li> -->
     </ul>
     </div>
     
 
     <section class="testimonials" id="gobottom">
     <div class="container">
-        <div class="span3 well">
+        <div class="span3 well" style="background:black;border: 0px;">
             <center>
             <a href="#aboutModal" data-toggle="modal" data-target="#myModal"><img src="images/b.jpeg" name="aboutme" width="140" height="140" class="img-circle"></a>
             <h3>Brighton Asumani</h3>
@@ -55,7 +59,7 @@
             </center>
         </div>
         <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="background-color: black;">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -63,9 +67,9 @@
                         <h4 class="modal-title" id="myModalLabel">About me</h4>
                         </div>
                     <div class="modal-body">
-                        <center>
-                        <img src="images/b.jpeg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
-                        <h3 class="media-heading">Brighton Asumani</h3>
+                         <center>
+                        <img src="images/b.jpeg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a> 
+                       <!-- <h3 class="media-heading">Brighton Asumani</h3>
                         
                         <span data-toggle="collapse" data-target="#demo"><strong>Skills: </strong></span>
                      
@@ -74,7 +78,7 @@
                             <span class="label label-warning">Pivotal Tracker</span>
                             <span class="label label-info">Git and version control</span>
                             <span class="label label-info">HTML/CSS/Bootstrap</span>
-                            <span class="label label-success"> MySQL/PostgreSQL</span>
+                            <span class="label label-success"> MySQL/PostgreSQL</span> -->
                         </center>
                         <hr>
                         <center>
@@ -102,8 +106,8 @@
 
 
 <section class="testimonials text-center">
-        <h1 class="ttx">PROJECTS</h1>
-    <div class="container">
+        <h1 class="ttx" id="projects">PROJECTS</h1>
+    <div class="container" >
         <div class="row">
             <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                 <div class="card">
@@ -204,10 +208,72 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3 mt-4 ">
+                            <div class="card">
+                                <img class="card-img-top" src="images/news.jpg">
+                                <div class="card-block">
+            
+                                    <h4 class="card-title text-center">NEWS</h4>
+            
+                                    <div class="card-text text-center">
+                                        <div class="social-icons">
+                                            <a class="button button-style" href="https://brightnews.herokuapp.com" target="_blank">view</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <small>An application that uses an API_key to fetch data </small>
+            
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/web.png">
+                                    <div class="card-block">
+                
+                                        <h4 class="card-title text-center">VOTING</h4>
+                
+                                        <div class="card-text text-center">
+                                            <div class="social-icons">
+                                                <a class="button button-style" href="https://brighton-asumani.github.io/Politico/UI/index.html" target="_blank">view</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <small>A Web tempate visualizes a voting system</small>
+                
+                                    </div>
+                                </div>
+                            </div>
         </div>
     </div>
 </section>
 
+<section class="testimonials text-center">
+        <h1 class="ttx" id="projects">SKILLS</h1>
+        <div class="container padd">
+                <div class="row">
+<div id="carousel">
+        <figure id="spinner">
+                <img src="images/pyyy.png" name="aboutme" class="img-responsive" width='300px' height="300px">
+                <img src="images/poss.png" name="aboutme" class="img-responsive" width='300px' height="300px">
+                <img src="images/flask.png" name="aboutme" class="img-responsive" width='300px' height="300px">
+                <img src="images/booot.png" name="aboutme" class="img-responsive" width='300px' height="300px">
+                <img src="images/git.png" name="aboutme"  class="img-responsive" width='300px' height="300px">
+                <img src="images/heroku.png" name="aboutme" class="img-responsive" width='300px' height="300px">
+                <img src="images/piv.png" name="aboutme" class="img-responsive" width='300px' height="300px">
+                <img src="images/js.png" name="aboutme" class="img-responsive img-circle" width='300px' height="300px">
+          </figure>
+</div>
+<span style="float:left" class="ss-icon" onclick="galleryspin('-')"><i class='fa fa-backward'></i></i></span>
+<span style="float:right" class="ss-icon" onclick="galleryspin('')"><i class='fa fa-forward'></i></i</span>
+</div>
+</div>
+
+</section>
 
     <!-- Footer Start -->
     <footer class="footer-section">

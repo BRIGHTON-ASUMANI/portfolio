@@ -6,9 +6,14 @@ body {
   line-height: 24px;
   letter-spacing: 3px;
   height: 100%;
-  background: #ffffff;
+  background: black;
   
 }
+.modal-content{
+	background-image: url("https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwien_rU-IHhAhUMORQKHRmjDygQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F545568942342239949%2F&psig=AOvVaw0LVOkAMFjE3Cpj3euIYxc4&ust=1552644348789679");
+	background-repeat: no-repeat;
+ }
+	
 
 .row{
 	margin-top:10px;
@@ -56,7 +61,7 @@ p {
 	font-size:18px;
 	color:  #FF6347;
     margin:2px;
-    font-family: 'Noto Sans CJK KR Black', sans-serif;
+    font-family: 'Noto Sans CJK KR Black';
 }
 
 b {
@@ -87,28 +92,6 @@ fieldset {
     background-color: #ffffff;
 	padding: 50px;
 }
-
-.section-title h2 {
-	margin-bottom: 30px;
-	border-left: 4px solid #4c9cef;
-    margin-left: -15px;
-    padding-left: 10px;
-}
-
-.section-title-style {
-    color: black;
-    border-bottom: 5px solid #4c9cef;
-    border-bottom-right-radius: 100%;
-}
-
-.img-responsive{
-	float: right;
-    margin-top: -78px;
-    font-size: 50px;
-    height: 50%;
-    width: 50;
-}
-
 
 
 .btn {
@@ -194,7 +177,9 @@ fieldset {
   transform: scale(0);
 }
 
-
+.col-md-4{
+	margin-top: 30px;
+}
 
 
 
@@ -232,20 +217,9 @@ fieldset {
 }
 
 
-.tumblr {
-   color: #35465c;
-}
-
-.foursquare {
-   color: #f94877;
-}
 
 .github {
    color: #333333;
-}
-
-.skype {
-   color: #00aff0;
 }
 
 
@@ -564,7 +538,7 @@ margin-top: 20px;
 }
 
 .ttx{
-    text-align: center;
+		text-align: center;
+		background-color: #ffffff;
 }
-
 
