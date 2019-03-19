@@ -9,11 +9,6 @@ body {
   background: black;
   
 }
-.modal-content{
-	background-image: url("https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwien_rU-IHhAhUMORQKHRmjDygQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F545568942342239949%2F&psig=AOvVaw0LVOkAMFjE3Cpj3euIYxc4&ust=1552644348789679");
-	background-repeat: no-repeat;
- }
-	
 
 .row{
 	margin-top:10px;
@@ -542,7 +537,4 @@ margin-top: 20px;
 .ttx{
 		text-align: center;
 		background-color: #ffffff;
-}
-.cen{
-	text-align: center;
 }
